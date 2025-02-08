@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -67,11 +66,11 @@
     <div class="container">
         <div class="section">
             <h2>Discover the Rich Heritage of Northeast India</h2>
-            <p>Northeast India is home to a diverse and vibrant cultural heritage, known for its intricate handloom textiles, exquisite bamboo and cane crafts, and beautiful pottery. The region’s art and handicrafts reflect deep-rooted traditions passed down through generations, showcasing the stories, beliefs, and lifestyles of indigenous communities. From the famous Assamese silk weaving to the handcrafted Naga jewelry, every piece of art tells a unique story.</p>
+            <p>Northeast India is home to a diverse and vibrant cultural heritage, known for its intricate handloom textiles, exquisite bamboo and cane crafts, and beautiful pottery. The region’s artisans have preserved these traditional practices for generations.</p>
         </div>
         <div class="section">
             <h2>Workshop Activities</h2>
-            <p>Join interactive crafting sessions led by local artisans and create unique handicrafts using clay, paper, and bamboo. Gain hands-on experience with traditional techniques that have been passed down for generations. A special guest artist will also be present to demonstrate their expertise and share insights into their artistic journey.</p>
+            <p>Join interactive crafting sessions led by local artisans and create unique handicrafts using clay, paper, and bamboo. Gain hands-on experience with traditional techniques that have been passed down through generations.</p>
         </div>
         <div class="section">
             <h2>Exhibition Highlights</h2>
