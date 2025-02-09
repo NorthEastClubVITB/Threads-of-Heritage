@@ -35,7 +35,7 @@
             padding-left: 20px;
         }
         .section ul {
-            padding-left: 20px;
+            padding-left: 15px;
         }
         .section p {
             text-align: justify;
