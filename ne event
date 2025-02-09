@@ -19,7 +19,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
+            background: rgba(0, 0, 0, 0.4); /* Adjust transparency here */
             z-index: -1;
         }
         .header {
@@ -35,7 +35,7 @@
             width: 80%;
             margin: 20px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.85);
             color: #333;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
             border-radius: 15px;
