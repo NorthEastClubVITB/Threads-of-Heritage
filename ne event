@@ -19,7 +19,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.4); /* Adjust transparency here */
+            background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
             z-index: -1;
         }
         .header {
