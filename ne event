@@ -10,7 +10,7 @@
             padding: 0;
             color: #fff;
             overflow-x: hidden;
-            background: url('ne1.jpg') no-repeat center center fixed;
+            background: url('your-image-link-here') no-repeat center center fixed;
             background-size: cover;
         }
         .background-overlay {
@@ -19,11 +19,11 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.4); /* Adjust transparency here */
+            background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
             z-index: -1;
         }
         .header {
-            background: rgba(5, 25, 55, 0.8);
+            background: rgba(5, 25, 55, 0.85);
             color: white;
             text-align: center;
             padding: 40px;
@@ -35,7 +35,7 @@
             width: 80%;
             margin: 20px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.9); /* Enhanced visibility */
             color: #333;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
             border-radius: 15px;
