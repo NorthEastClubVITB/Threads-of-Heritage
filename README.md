@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +9,14 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #0d1b2a, #1b263b);
+            background: url('https://images.app.goo.gl/kbwb6tWxHuueJjmUA') no-repeat center center fixed;
+            background-size: cover;
+            background-blend-mode: lighten;
             color: #fff;
             overflow-x: hidden;
         }
         .header {
-            background: linear-gradient(to right, #051937, #004d7a);
+            background: rgba(5, 25, 55, 0.8);
             color: white;
             text-align: center;
             padding: 40px;
@@ -25,7 +28,7 @@
             width: 80%;
             margin: 20px auto;
             padding: 20px;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.8);
             color: #333;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
             border-radius: 15px;
@@ -33,6 +36,13 @@
         }
         .section {
             margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section p {
+            text-align: justify;
         }
         .btn {
             display: inline-block;
@@ -66,11 +76,11 @@
     <div class="container">
         <div class="section">
             <h2>Discover the Rich Heritage of Northeast India</h2>
-            <p>Northeast India is home to a diverse and vibrant cultural heritage, known for its intricate handloom textiles, exquisite bamboo and cane crafts, and beautiful pottery. The region’s artisans have preserved these traditional practices for generations.</p>
+            <p>Northeast India is home to a diverse and vibrant cultural heritage, known for its intricate handloom textiles, exquisite bamboo and cane crafts, and beautiful pottery. The region’s art and handicrafts reflect deep-rooted traditions passed down through generations, showcasing the stories, beliefs, and lifestyles of indigenous communities. From the famous Assamese silk weaving to the handcrafted Naga jewelry, every piece of art tells a unique story.</p>
         </div>
         <div class="section">
             <h2>Workshop Activities</h2>
-            <p>Join interactive crafting sessions led by local artisans and create unique handicrafts using clay, paper, and bamboo. Gain hands-on experience with traditional techniques that have been passed down through generations.</p>
+            <p>Join interactive crafting sessions led by local artisans and create unique handicrafts using clay, paper, and bamboo. Gain hands-on experience with traditional techniques that have been passed down for generations. A special guest artist will also be present to demonstrate their expertise and share insights into their artistic journey.</p>
         </div>
         <div class="section">
             <h2>Exhibition Highlights</h2>
@@ -96,13 +106,14 @@
         </div>
         <div class="section">
             <h2>Event Details</h2>
-            <p><strong>Date:</strong> 1st and 3rd day of Advitya</p>
+            <p><strong>Date:</strong> 20 February</p>
             <p><strong>Time:</strong> 10 AM - 4 PM</p>
-            <p><strong>Venue:</strong> Open Ground</p>
+            <p><strong>Venue:</strong> ARCH-102</p>
         </div>
         <div class="section" style="text-align: center;">
-            <a href="#" class="btn">Register Now</a>
+            <a href="mynk" class="btn">Register Now</a>
         </div>
     </div>
 </body>
 </html>
+
