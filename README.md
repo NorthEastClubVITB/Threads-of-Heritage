@@ -35,7 +35,7 @@
             width: 80%;
             margin: 20px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(255, 255, 255, 0.8);
             color: #333;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
             border-radius: 15px;
