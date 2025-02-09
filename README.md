@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,9 +8,6 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://drive.google.com/file/d/1DFV7WXUJYRHH28ZxA8FmZLz5OD19WgpH/view?usp=sharing') no-repeat center center fixed;
-            background-size: cover;
-            background-blend-mode: lighten;
             color: #fff;
             overflow-x: hidden;
         }
@@ -116,4 +112,3 @@
     </div>
 </body>
 </html>
-
