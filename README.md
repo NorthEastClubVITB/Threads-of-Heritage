@@ -10,6 +10,17 @@
             padding: 0;
             color: #fff;
             overflow-x: hidden;
+            background: url('ne1.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .background-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Adjust transparency here */
+            z-index: -1;
         }
         .header {
             background: rgba(5, 25, 55, 0.8);
@@ -35,7 +46,7 @@
             padding-left: 20px;
         }
         .section ul {
-            padding-left: 15px;
+            padding-left: 20px;
         }
         .section p {
             text-align: justify;
@@ -65,6 +76,7 @@
     </style>
 </head>
 <body>
+    <div class="background-overlay"></div>
     <div class="header">
         <h1>Handicraft Workshop & Exhibition</h1>
         <p>Experience the Magic of Northeast India's Art & Culture!</p>
