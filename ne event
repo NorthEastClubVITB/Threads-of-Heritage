@@ -10,7 +10,7 @@
             padding: 0;
             color: #fff;
             overflow-x: hidden;
-            background: url('your-image-link-here') no-repeat center center fixed;
+            background: url('ne2.jpg') no-repeat center center fixed;
             background-size: cover;
         }
         .background-overlay {
