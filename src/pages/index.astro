@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MapPin, Calendar, Clock, Hammer, Gamepad2, Camera, Palette, Coffee, Trophy } from 'lucide-astro';
+---
+
+<Layout title="Threads of Heritage - North East Club, VIT Bhopal">
+  <main>
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center">
+      <div class="absolute inset-0 z-0">
+        <img
+          src="ThreadsofHeritage.jpeg"
+          alt="North East India Cultural Background"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-black/50"></div>
+      </div>
+      <div class="relative z-10 text-center text-white px-4">
+        <h1 class="text-5xl md:text-7xl font-bold font-['Playfair_Display'] mb-6">
+          Threads of Heritage
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+          Experience the vibrant culture and traditions of North East India
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+          <div class="flex items-center gap-2">
+            <Calendar class="w-6 h-6" />
+            <span>February 20, 2025</span>
+          </div>
+          <div class="hidden md:block w-2 h-2 bg-ne-accent rounded-full"></div>
+          <div class="flex items-center gap-2">
+            <Clock class="w-6 h-6" />
+            <span>11:00 AM - 4:30 PM</span>
+          </div>
+          <div class="hidden md:block w-2 h-2 bg-ne-accent rounded-full"></div>
+          <div class="flex items-center gap-2">
+            <MapPin class="w-6 h-6" />
+            <span>Arch 102, VIT Bhopal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12 font-['Playfair_Display']">About The Event</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <img
+              src="TOH Poster.jpg"
+              alt="Threads of Heritage Event Poster"
+              class="rounded-lg shadow-lg w-full"
+            />
+          </div>
+          <div class="space-y-6 text-justify">
+            <p class="text-lg text-gray-700">
+              Threads of Heritage – The North East is a celebration of the rich cultural traditions and artistic heritage of Northeast India, hosted by the North East Club as part of Advitya 2025. This event offers an immersive experience where participants can explore exquisite handicraft displays, engage in traditional and modern games, and capture memories at a beautifully designed photo booth.
+            </p>
+            <p class="text-lg text-gray-700">
+              Additionally, the interactive crafting area provides a hands-on opportunity to appreciate and create traditional art forms. Join us on 20th February 2025 at Arch 102 from 11 AM onwards to experience the vibrant essence of the Northeast through its art, culture, and creativity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-20 bg-ne-light">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12 font-['Playfair_Display']">Event Highlights</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Hammer class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Hands-on Craft Workshop</h3>
+            <p class="text-gray-600">Interactive session with artisans to create crafts using bamboo. Special guest artist demonstration.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Gamepad2 class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Games & Fun Activities</h3>
+            <p class="text-gray-600">
+              • Trivia Quiz about Northeast India<br>
+              • Northeast-themed Bingo<br>
+              • Spin the Wheel for surprises
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Camera class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Photo Booth</h3>
+            <p class="text-gray-600">Capture memorable moments with beautifully themed backgrounds.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Palette class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Aesthetic Ambience</h3>
+            <p class="text-gray-600">Enjoy a visually pleasing environment with decorative lighting and background music.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Coffee class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Tea Stall</h3>
+            <p class="text-gray-600">Savor a cup of classic Northeast Indian tea.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Trophy class="w-12 h-12 text-ne-primary mb-4" />
+            <h3 class="text-xl font-bold mb-3">Craft Showcase & Prizes</h3>
+            <p class="text-gray-600">Display workshop creations, vote for the best, and win exciting prizes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-20 bg-ne-primary text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold mb-8 font-['Playfair_Display']">Join Us in This Cultural Celebration</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+          Don't miss this opportunity to experience the rich cultural heritage of North East India. Register now to be part of this unique celebration.
+        </p>
+        <a
+          href="https://forms.gle/1vbV6MX7sxhqfbvL6"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-white text-ne-primary px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          Register Now
+        </a>
+      </div>
+    </section>
+  </main>
+</Layout>
